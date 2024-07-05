@@ -1,0 +1,44 @@
+:root{
+    --bg-color: #1E1E20;
+    --text-color1: #d9d9d9;
+    --text-color2: #8EA80C;
+    --font-family: "Poppins", sans-serif;
+    --font-weight: 300;
+    --font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+}
+#cabecalho{
+    width: 100%;
+    min-height: 50px;
+}
+nav{
+    margin: 50px auto;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: var(--text-color2);
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 24px ;
+}
+
+#contatos{
+    
+}
