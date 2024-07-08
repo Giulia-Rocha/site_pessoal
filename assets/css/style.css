@@ -31,7 +31,7 @@ ul{
 li{
     list-style: none;
 }
-li a{
+.secao{
     text-decoration: none;
     color: var(--text-color2);
     font-family: var(--font-family);
@@ -39,6 +39,110 @@ li a{
     font-size: 24px ;
 }
 
+.secao:hover{
+    font-size: 28px;
+    transition: 0.5s;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 #contatos{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 264px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin:380px 0 380px 30px;
+}
+.icones-ctt{
+    width:50px;
+    height: 50px;
+}
+#apresentacao{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 65px;
+}
+#img_giu{
+    width: 450px;
+    border-radius: 90px;
+    filter: drop-shadow( 10px 10px 10px  var(--text-color2))
+}
+#apresentacao_texto{
+    font-family: var(--font-family);
+    text-align: center;
+}
+#frase_1{
+    color: var(--text-color1);
+    font-weight: 300;
+    font-size: 36px;
+}
+#frase_2{
+    color:var(--text-color2);
+    font-weight: 400;
+    font-size: 40px ;
+}
+
+
+#projetos{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    gap: 40px;
+   
+}
+.section_titulo{
+    margin: 20px;
+    font-size: 40px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    color:var(--text-color2);
+}
+#projetos_cards{
+    width: 70%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:130px;
+}
+
+#stacks{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+    
+}
+#stacks_cards{
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    column-gap: 180px;
+}
+#rodape{
+    width: 100%;
+    height: 40px;
+    background-color: var(--text-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rodape h5{
+    color: var(--bg-color);
+    font-size: 16px;
+    font-family: var(--font-family);
     
 }
